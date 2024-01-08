@@ -4,12 +4,12 @@
 --Problem 1: Data Loading
 
 --1. Load the data into a Hive table. Create an external table with the
-given schema and load the data into the table from a text file or HDFS
-path.
+  given schema and load the data into the table from a text file or HDFS
+  path.
 
 --Problem 1: Data Loading
 --1. Create an external table with the given schema and the table should
-store data as text file from HDFS path.
+  store data as text file from HDFS path.
 
 CREATE EXTERNAL TABLE car_insurance_data (
 Id INT,
