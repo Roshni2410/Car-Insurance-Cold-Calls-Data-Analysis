@@ -102,18 +102,4 @@ call duration.
 category, using a window frame of the current row and the two
 preceding rows.
   
-Problem 10: Performance Tuning
 
-1. Experiment with different file formats (like ORC, Parquet) and
-measure their impact on the performance of your Hive queries.
-2. Use different levels of compression and observe their effects on
-storage and query performance.
-
-3. Compare the execution time of join queries with and without
-bucketing.
-4. Optimize your Hive queries using different Hive optimization
-techniques (for example, predicate pushdown, map-side joins,
-etc.). Discuss the difference in performance.
-Please make sure to submit the HiveQL queries, along with their results and
-your observations. This assignment not only tests your understanding of
-Apache Hive but also requires you to derive meaningful insights from the data.
